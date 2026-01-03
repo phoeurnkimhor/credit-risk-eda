@@ -1,0 +1,16 @@
+format:
+  pdf:
+    pdf-engine: xelatex
+    keep-tex: False
+    title-block-style: none
+    number-sections: true
+    documentclass: scrartcl
+    classoption:
+      - DIV=11
+      - numbers=noendperiod
+    papersize: letter
+    include-in-header:
+      text: |
+        \usepackage{fontspec}
+        \newfontfamily\khmerfont{Khmer OS System}
+        \newcommand{\khmer}[1]{{\khmerfont #1}}

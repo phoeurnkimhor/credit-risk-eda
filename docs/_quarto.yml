@@ -1,0 +1,19 @@
+# Quarto project config
+title: "Ola and Uber Ride Booking & Cancellation EDA"
+author:
+  - name: PHETH Soriyuon
+  - name: PHOEURN Kimhor
+  - name: YIN Sambat
+  - name: "Lecturered by: Dr. HAS Sothea"
+date: "13 January 2026"
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs:
+    slide-number: true
+    progress: true
+    smaller: true
+    scrollable: true
+    footer: "I5-AMS (2025-2026)"
+    embed-resources: true
+    number-sections: true
+    css: styles.css

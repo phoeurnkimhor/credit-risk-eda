@@ -1,0 +1,47 @@
+.reveal::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 70px;
+  height: 70px;
+  background: url('../assets/itc.png') no-repeat center;
+  background-size: contain;
+  z-index: 1000;
+}
+.reveal::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 100px;
+  height: 100px;
+  background: url('../assets/ams_t.png') no-repeat center;
+  background-size: contain;
+  z-index: 1000;
+}
+
+.reveal h1.title {
+  font-size: 1.8em !important;
+  margin-top: 100px !important;
+  color: #1a365d;
+}
+.reveal h2 {
+  font-size: 1.5em;
+  color: #1a365d;
+  border-bottom: 2px solid #1a365d;
+}
+.reveal h3 {
+  font-size: 1.1em;
+  color: #2c5282;
+}
+
+/* Stack authors and style last (advisor) smaller */
+.reveal .quarto-title-authors { margin-top: 0.75rem; }
+.reveal .quarto-title-authors .quarto-title-author { display: block; }
+.reveal .quarto-title-authors .quarto-title-author:last-child {
+  margin-top: 0.35rem;
+  font-size: 0.9em;
+  color: #2c5282;
+  opacity: 0.95;
+}
